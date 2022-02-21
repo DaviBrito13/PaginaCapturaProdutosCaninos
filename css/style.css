@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amatic SC", cursive;
+    background-color: black;
+}
+
+.title {
+    font-size: 28px;
+}
+.container {
+    max-width: 1000px;
+    margin:auto;
+}
+
+header {
+    background-color: #48C5CE;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.content {
+    padding: 15px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-size: cover;
+    background-image:url(../img/dog-na-cama-2.jpg);
+    overflow: hidden;
+    
+}
+
+.formContainer {
+    font-size: 14px;
+    max-width: 260px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float:right;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    font-family: 'Balsamiq Sans', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type = "submit"] {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #48C5CE;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../img/paw_icon_135323.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+}
+
+footer {
+    background-color: #48C5CE;
+    max-width: 1000px;
+    padding: 60px;
+}
+
+.clientes-geral {
+    position: relative;
+}
+
+
+.clientes-info {
+    position: relative;
+    left: 30px;
+    bottom: 200px;
+    color: whitesmoke;
+    font-size: 20px;
+    display: inline-block;
+    max-width: 50%;
+    
+}
+
+.clientes {
+    display: inline-block;
+    border: 5px solid whitesmoke;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 800px;
+        margin:auto;
+    }
+
+    .clientes-info {
+        position: relative;
+        left: 50px;
+        bottom: 70px;
+        color: whitesmoke;
+        font-size: 20px;
+        display: inline-block;
+        max-width: 20%;
+        
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 400px;
+        margin:auto;
+    }
+
+    .clientes-info {
+        position: relative;
+        left: 90px;
+        bottom: 50px;
+        color: whitesmoke;
+        font-size: 20px;
+        display: inline-block;
+        max-width: 50%;
+        
+    }
+
+    .formContainer {
+        margin: auto;
+        font-size: 14px;
+        max-width: 600px;
+        background-color: #FFFFFFBB;
+        padding: 20px;
+    }
+}
+
+
+
+
